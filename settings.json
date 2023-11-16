@@ -1,0 +1,114 @@
+{
+  "workbench.preferredLightColorTheme": "Gondolin Light",
+  "workbench.preferredDarkColorTheme": "Monokai++",
+  "workbench.panel.defaultLocation": "right",
+  "workbench.tree.indent": 10,
+  "workbench.tree.renderIndentGuides": "none",
+
+  // Terminal
+  "terminal.integrated.fontSize": 12,
+  "terminal.explorerKind": "external",
+  "terminal.external.osxExec": "iTerm.app",
+
+  "appService.showSavePrompt": false,
+  // EMMET
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact",
+    "erb": "html",
+    "ruby": "html"
+  },
+  "emmet.showAbbreviationSuggestions": true,
+  "emmet.showSuggestionsAsSnippets": true,
+
+  "breadcrumbs.icons": false,
+  "breadcrumbs.enabled": false,
+  "explorer.confirmDelete": false,
+  "redhat.telemetry.enabled": true,
+
+  // ES Lint
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.validate": ["javascript", "javascriptreact", "vue"],
+
+  // Window
+  "window.restoreFullscreen": true,
+  "window.restoreWindows": "none",
+  "window.openFoldersInNewWindow": "off",
+  "window.openWithoutArgumentsInNewWindow": "on",
+
+  // Editor
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 15,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.overviewRulerBorder": false,
+  "editor.colorDecorators": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[sql]": {
+    "editor.defaultFormatter": "bradymholt.pgformatter"
+  },
+  "[elixir]": {
+    "editor.defaultFormatter": "JakeBecker.elixir-ls"
+  },
+  "[erb]": {
+    "editor.defaultFormatter": "aliariff.vscode-erb-beautify"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[ruby]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "files.associations": {
+    "*.html.erb": "erb"
+  },
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "cSpell.language": "en-GB",
+  "cSpell.userWords": [
+    "actioncable",
+    "activestorage",
+    "Avenir",
+    "Bootcamp",
+    "browserslist",
+    "composables",
+    "datasource",
+    "Gondolin",
+    "Heroku",
+    "knexfile",
+    "mentee",
+    "psql",
+    "sass",
+    "Scholtz",
+    "turbolinks",
+    "vuex",
+    "webpacker",
+    "yoink"
+  ],
+  "json.schemas": [],
+  "elixirLS.fetchDeps": false,
+  "editor.linkedEditing": true,
+  "solargraph.commandPath": "/Users/stephenscholtz/.asdf/shims/solargraph",
+  "prettier.printWidth": 100,
+  "prettier.singleQuote": true,
+  "vetur.useWorkspaceDependencies": true,
+  "prettier.jsxSingleQuote": true,
+  "workbench.colorTheme": "Gondolin Light",
+  "workbench.startupEditor": "none",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnSave": true,
+  "C_Cpp.debugShortcut": false,
+  "debug.javascript.autoAttachFilter": "disabled",
+  "typescript.preferences.importModuleSpecifier": "project-relative",
+  "jestrunner.codeLens": [],
+  "jestrunner.disableCodeLens": true,
+  "bicep.enableSurveys": false,
+  "nxConsole.showNodeVersionOnStartup": false
+}
